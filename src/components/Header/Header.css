@@ -1,0 +1,32 @@
+.site {
+  color:white;
+  background-color: var(--gray-600);
+  /* position: relative; */
+  padding: 1.5rem;
+  padding-left: 100px;
+  padding-right: 100px;
+   width: 100%;
+  height: 60px; 
+  
+}
+
+
+
+.container-header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.contem-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+.contem-header h1 {
+    display: block;
+    font-size: 1.875rem;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

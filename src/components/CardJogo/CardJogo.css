@@ -1,0 +1,43 @@
+.autor-imagem {
+    width: 180px;
+    height: 250px;
+    border-radius: 20px;
+    border: 2px solid violet;
+}
+
+.autor-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(140, 33, 190);
+    padding: 10px;
+    margin: 20px;
+    width: 230px;
+    border-radius: 20px;
+    border: 2px solid violet;
+    box-shadow: 0 0 15px 0 rgb(52, 12, 52)
+}
+
+.autor-card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.autor-card:hover {
+    transform: scale(1.1);
+}
+
+.autor-card h2 {
+    font-size: 25px;
+    color: rgb(89, 6, 128);
+}
+
+.autor-card p {
+    font-size: 18px;
+    color: rgb(85, 25, 112);
+}
+
+.autor-card small {
+    font-size: 15px;
+    color: rgb(235, 144, 255);    
+}

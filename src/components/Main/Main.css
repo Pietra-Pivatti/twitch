@@ -1,0 +1,161 @@
+.banner {
+    background-color: var(--primary-600);
+    color: white;
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.main-div {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+}
+
+.main-div a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+
+.main-div ul {
+    display: flex;
+    gap: 2rem;
+    margin: 0;
+    padding: 0
+}
+
+.container-banner {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.banner-content h2{
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+}
+
+.banner-content p {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
+    unicode-bidi: isolate;
+}
+
+.frase {
+  background: var(--primary-50);
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.container-frase {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.frase-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.frase-content h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-weight: bold;
+    color: var(--gray-900);
+}
+
+.frase-content h3 {
+    display: block;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    color: var(--primary-600);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.cards {
+  background: white;
+}
+
+.container-cards {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container-cards h2{
+  display: block;
+  font-size: 1.5em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-weight: bold;
+  color: var(--gray-900);
+}
+
+.card-grade {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+  justify-content: space-between;
+  padding: 5rem
+}
+
+.card {
+  background: white;
+  border-radius: 0.75rem;
+  box-shadow: var(--gray-900);
+  padding: 1.5rem;
+  border: 3px solid var(--gray-200);
+  position: relative;
+  overflow: hidden;
+  color: var(--gray-800);
+  text-align: center;
+}
+
+.card img {
+  width: 250px;
+  height: 250px;
+}
+
+.fim {
+  background-color: var(--primary-500);
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 4rem;
+  padding: 5rem;
+}
+
+.fim h2 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+
+}
+
+.fim p {
+  font-size: 1.125rem;
+  margin: 0;
+  opacity: 0.95;
+}
